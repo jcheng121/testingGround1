@@ -25,8 +25,8 @@ checkStatus();
 my $refRepository = findAllRepository("/home/jcheng/");
 print @$refRepository;
 
-#my @scanDirs = ("c:/perl_bin/");
-#scanDirs(\@scanDirs);
+my @scanDirs = ("/home/jcheng/");
+scanDirs(\@scanDirs);
 
 sub checkStatus ()
 {
